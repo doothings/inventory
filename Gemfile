@@ -18,10 +18,14 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', "2.3.0"
 gem 'rails_12factor', group: :production
+gem 'activeadmin'
+gem "meta_search",    '>= 1.1.0.pre'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

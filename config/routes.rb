@@ -1,6 +1,9 @@
 Inventory::Application.routes.draw do
-  root :to => 'hardwares#index'
-  resources :hardwares
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+
+  root to: "admin/dashboard#index"
+  #resources :hardwares
 
 
   # The priority is based upon order of creation:
