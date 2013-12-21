@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Serial number:</b>
+  <%= @hardware.serial_number %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @hardware.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @hardware.description %>
+</p>
+
+<p>
+  <b>Quantity:</b>
+  <%= @hardware.quantity %>
+</p>
+
+<p>
+  <b>Rack number:</b>
+  <%= @hardware.rack_number %>
+</p>
+
+<p>
+  <b>Photo:</b>
+  <%= @hardware.photo %>
+</p>
+
+<%= link_to 'Edit', edit_hardware_path(@hardware) %> |
+<%= link_to 'Back', hardwares_path %>

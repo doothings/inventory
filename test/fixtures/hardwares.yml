@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  serial_number: 1
+  name: MyText
+  description: MyText
+  quantity: 1
+  photo: MyString
+
+two:
+  serial_number: 1
+  name: MyText
+  description: MyText
+  quantity: 1
+  photo: MyString
